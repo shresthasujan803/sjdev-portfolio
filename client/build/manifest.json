@@ -1,0 +1,15 @@
+{
+  "short_name": "SJ-Portfolio",
+  "name": "Sujan Shrestha | Portfolio",
+  "icons": [
+    {
+      "src": "/files/sj.jpg",
+      "type": "image/jpg",
+      "sizes": "1080x1080"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

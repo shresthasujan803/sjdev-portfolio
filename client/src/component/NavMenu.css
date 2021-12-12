@@ -1,0 +1,83 @@
+.nav-menu {
+  position: absolute;
+  right: 10px;
+  z-index: 100;
+  display: none;
+}
+
+.menu-btns {
+  position: absolute;
+}
+
+.menu-btn {
+  display: block;
+  width: 40px;
+  height: 40px;
+  /* removes the check appearacne */
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  background: rgb(42, 42, 42);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.116);
+  text-align: center;
+  border-radius: 5px;
+  color: rgb(41, 41, 41);
+}
+
+.menu-btn::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Font Awesome 5 Free';
+  content: '\f0c9';
+  font-weight: 700;
+  font-size: 28px;
+  z-index: 10;
+  color: #ffffff;
+}
+
+.menu-btn:checked::before {
+  content: '\f00d';
+  animation: anime 1s;
+}
+
+@keyframes anime {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.menu-btns button {
+  transform: translateX(100px);
+  border: none;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px 20px;
+  background: rgb(42, 42, 42);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.103);
+  color: #fff;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: transform calc(var(--i) * 0.2s), background 0.4s;
+}
+
+.menu-btn:checked ~ .menu-btns button {
+  transform: translateX(-80px);
+}
+
+.menu-btns button:hover {
+  background: #242424;
+  box-shadow: 0 0 15px #242424;
+}
+
+@media screen and (max-width: 1111px) {
+  .nav-menu {
+    display: block;
+  }
+}
