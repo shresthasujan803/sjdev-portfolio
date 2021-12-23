@@ -169,30 +169,6 @@ const Resume = ({ workRef }) => {
                     the given designs.
                   </p>
                 </div>
-                <div className="box">
-                  <div className="title row row-space">
-                    <div className="heading-bullet"></div>
-                    <h3>Express Computing</h3>
-                    <span>
-                      <a
-                        href="/files/express.jpg"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        CERTIFICATE
-                      </a>
-                    </span>
-                  </div>
-                  <div className="subtitle">IOT INTERN</div>
-                  <p>
-                    - Developed a home automation app for authorized client with
-                    the dashboard for controlling home appliances.
-                    <br />- Integrated the web app with backend services to
-                    create new user onboarding application with dynamic form
-                    content. <br /> - Developed a project with PWA concept for
-                    cross-platform support.
-                  </p>
-                </div>
               </div>
             </div>
             <div className="detail">
@@ -432,10 +408,9 @@ const Resume = ({ workRef }) => {
                     <h3>Competitive Gaming</h3>
                   </div>
                   <div className="subtitle">
-                    Listening to soothing music is something i can never
-                    compromise with, skimming through Spotify's pop songs charts
-                    is at times the best stress reliever that i can get my hands
-                    on.
+                    Gaming is my one of my passion and is actually a major way
+                    in which you can learn, improve, and practice your
+                    problem-solving skills
                   </div>
                 </div>
                 <div className="box">
